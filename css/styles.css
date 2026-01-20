@@ -1310,16 +1310,19 @@ p {
 .map-caption {
   margin-top: 16px;
   text-align: center;
+  width: 100%;
 }
 
 .map-caption h3 {
   color: var(--text-dark);
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .map-caption p {
   color: var(--text-medium);
-  max-width: 300px;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 /* Button Icon */
@@ -1345,6 +1348,7 @@ p {
 
 .google-map-container .map-caption {
   margin-top: 16px;
+  text-align: center;
 }
 
 /* Headquarters Image */
