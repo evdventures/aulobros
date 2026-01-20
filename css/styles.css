@@ -1328,3 +1328,39 @@ p {
   height: 20px;
   fill: currentColor;
 }
+
+/* Google Map Container */
+.google-map-container {
+  height: 100%;
+  min-height: 400px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.google-map-container iframe {
+  flex: 1;
+  min-height: 300px;
+}
+
+.google-map-container .map-caption {
+  margin-top: 16px;
+}
+
+/* Headquarters Image */
+.headquarters-image {
+  margin: 24px 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.headquarters-image img {
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.img-rounded {
+  border-radius: 8px;
+}
