@@ -81,7 +81,26 @@ The site is fully static and ready for GitHub Pages deployment:
 - JavaScript only used for essential mobile navigation
 - No server-side dependencies required
 
+## SEO Optimization
+All pages include comprehensive SEO elements:
+- **Title tags**: Keyword-optimized for "Aulo Bros", "Worcester MA dumpster rental", "Worcester trucking"
+- **Meta descriptions**: Compelling descriptions with phone number and location
+- **Keywords meta tag**: Relevant search terms for local SEO
+- **Open Graph tags**: For Facebook/social media sharing
+- **Twitter Card tags**: For Twitter sharing
+- **Geographic meta tags**: Geo-targeting for Worcester/Shrewsbury MA area
+- **Canonical URLs**: Pointing to aulobros.com domain
+- **Structured Data (JSON-LD)**: LocalBusiness schema with full contact info, hours, services, and location
+
+Target Keywords:
+- "Aulo Bros"
+- "Worcester MA dumpster rental"
+- "Worcester trucking"
+- "roll-off dumpster Massachusetts"
+- "Shrewsbury MA trucking"
+
 ## Recent Changes
+- January 2026: Added comprehensive SEO optimization (meta tags, structured data, Open Graph)
 - January 2026: Initial static site creation with four pages
 - January 2026: Broadened service area from "Central MA" to "Massachusetts and New England"
 - January 2026: Added service images for all categories
