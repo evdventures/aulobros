@@ -1,1 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?> <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> <url> <loc>https://aulobros.com/</loc> </url> <url> <loc>https://aulobros.com/about.html</loc> </url> <url> <loc>https://aulobros.com/services.html</loc> </url> <url> <loc>https://aulobros.com/contact.html</loc> </url> </urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://aulobros.com/</loc>
+  </url>
+  <url>
+    <loc>https://aulobros.com/about.html</loc>
+  </url>
+  <url>
+    <loc>https://aulobros.com/services.html</loc>
+  </url>
+  <url>
+    <loc>https://aulobros.com/contact.html</loc>
+  </url>
+  <url>
+    <loc>https://aulobros.com/worcester-ma-dumpster-rental.html</loc>
+  </url>
+  <url>
+    <loc>https://aulobros.com/worcester-ma-rolloff.html</loc>
+  </url>
+  <url>
+    <loc>https://aulobros.com/worcester-ma-heavy-hauling.html</loc>
+  </url>
+  <url>
+    <loc>https://aulobros.com/massachusetts-trucking.html</loc>
+  </url>
+</urlset>

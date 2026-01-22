@@ -1367,3 +1367,114 @@ p {
 .img-rounded {
   border-radius: 8px;
 }
+
+/* Content Block Styles for Location Pages */
+.content-block {
+  max-width: 800px;
+  margin: 0 auto 48px auto;
+}
+
+.content-block:last-child {
+  margin-bottom: 0;
+}
+
+.content-block h2 {
+  color: var(--color-primary);
+  margin-bottom: 16px;
+  font-size: 1.75rem;
+}
+
+.content-block p {
+  color: var(--color-text);
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.content-block a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.content-block a:hover {
+  text-decoration: underline;
+}
+
+.content-list {
+  list-style: none;
+  margin: 24px 0;
+  padding-left: 0;
+}
+
+.content-list li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 12px;
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+.content-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 8px;
+  height: 8px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+}
+
+/* Simple Areas Grid for Location Pages */
+.areas-grid-simple {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+}
+
+.areas-grid-simple li {
+  background-color: var(--color-light);
+  padding: 12px 16px;
+  border-radius: 4px;
+  color: var(--color-text);
+  font-weight: 500;
+  text-align: center;
+}
+
+/* CTA Phone Link */
+.cta-phone {
+  color: inherit;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.cta-phone:hover {
+  color: var(--color-accent);
+}
+
+/* Local Service Links - Discrete SEO links */
+.local-service-links {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+.local-service-links p {
+  font-size: 0.85rem;
+  color: #666;
+  margin: 0;
+}
+
+.local-service-links a {
+  color: #666;
+  text-decoration: none;
+}
+
+.local-service-links a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}

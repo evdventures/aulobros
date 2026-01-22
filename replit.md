@@ -6,26 +6,35 @@ A clean, professional multi-page static website for Aulo Bros, a Worcester-based
 ## Project Structure
 ```
 /
-├── index.html          # Home page
-├── about.html          # Company overview and values
-├── services.html       # Services offered
-├── contact.html        # Contact information
+├── index.html                        # Home page
+├── about.html                        # Company overview and values
+├── services.html                     # Services offered
+├── contact.html                      # Contact information
+├── worcester-ma-dumpster-rental.html # Worcester dumpster rental SEO page
+├── worcester-ma-rolloff.html         # Worcester roll-off service SEO page
+├── worcester-ma-heavy-hauling.html   # Worcester heavy hauling SEO page
+├── massachusetts-trucking.html       # Massachusetts trucking SEO page
+├── sitemap.xml                       # XML sitemap for search engines
+├── robots.txt                        # Robots instructions
 ├── css/
-│   └── styles.css      # Main stylesheet
+│   └── styles.css                    # Main stylesheet
 ├── images/
-│   ├── logo.png                  # Company logo
-│   ├── recycling-philosophy.jpg  # Home page recycling section
-│   ├── about-top.jpg             # About page hero image
-│   ├── about-bottom.jpg          # About page bottom image
-│   ├── service-rolloff.jpg       # Roll-off dumpster service
-│   ├── service-construction.jpg  # Construction/demolition service
-│   ├── service-heavy-haul.jpg    # Heavy hauling service
-│   ├── service-land-clearing.jpg # Land clearing service
-│   ├── service-scrap-metal.jpg   # Scrap metal recovery service
-│   └── service-custom-waste.jpg  # Custom waste programs service
+│   ├── logo.png                      # Company logo
+│   ├── headquarters.jpg              # Headquarters building photo
+│   ├── recycling-philosophy.jpg      # Home page recycling section
+│   ├── about-top.jpg                 # About page hero image
+│   ├── about-bottom.jpg              # About page bottom image
+│   ├── service-rolloff.jpg           # Roll-off dumpster service
+│   ├── service-construction.jpg      # Construction/demolition service
+│   ├── service-heavy-haul.jpg        # Heavy hauling service
+│   ├── service-land-clearing.jpg     # Land clearing service
+│   ├── service-scrap-metal.jpg       # Scrap metal recovery service
+│   ├── service-custom-waste.jpg      # Custom waste programs service
+│   ├── service-warehousing.jpg       # Warehousing service
+│   └── new-england-map.png           # Service area map
 ├── js/
-│   └── main.js         # Mobile navigation functionality
-└── server/             # Express server for serving static files
+│   └── main.js                       # Mobile navigation functionality
+└── server/                           # Express server for serving static files
 ```
 
 ## Technology Stack
@@ -43,8 +52,14 @@ A clean, professional multi-page static website for Aulo Bros, a Worcester-based
 ## Pages
 1. **Home (index.html)**: Hero section, service highlights, recycling philosophy, trust indicators
 2. **About (about.html)**: Company story, values, recycling-first philosophy
-3. **Services (services.html)**: Detailed service listings with descriptions
+3. **Services (services.html)**: Detailed service listings with descriptions, local service area links
 4. **Contact (contact.html)**: Contact information, business hours, service area
+
+### SEO Location/Service Pages
+5. **Worcester Dumpster Rental (worcester-ma-dumpster-rental.html)**: Targeted page for Worcester dumpster rental searches
+6. **Worcester Roll-Off Service (worcester-ma-rolloff.html)**: Targeted page for roll-off container service
+7. **Worcester Heavy Hauling (worcester-ma-heavy-hauling.html)**: Targeted page for heavy hauling/trucking
+8. **Massachusetts Trucking (massachusetts-trucking.html)**: Statewide trucking and freight services
 
 ## Key Features
 - Consistent navigation across all pages
@@ -100,6 +115,12 @@ Target Keywords:
 - "Shrewsbury MA trucking"
 
 ## Recent Changes
+- January 2026: Added 4 SEO service/location pages (Worcester dumpster, roll-off, heavy hauling, MA trucking)
+- January 2026: Updated all page footers with Service Areas links to new pages
+- January 2026: Added "Local Service Information" section to services.html
+- January 2026: Added "Serving Worcester & Massachusetts" section to index.html
+- January 2026: Updated sitemap.xml with all new pages
+- January 2026: Added headquarters building photo to contact page
 - January 2026: Added comprehensive SEO optimization (meta tags, structured data, Open Graph)
 - January 2026: Initial static site creation with four pages
 - January 2026: Broadened service area from "Central MA" to "Massachusetts and New England"
